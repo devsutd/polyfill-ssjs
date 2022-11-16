@@ -18,3 +18,4 @@ This polifill add support for
 
 - String.startsWith
 - String.endsWith
+- String.trim

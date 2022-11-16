@@ -8,7 +8,7 @@
 >
 >  *For add new functionality please create a fork of this project and perform a pull request*.
 
-Add support for 
+This polifill add support for 
 
 ### Arrays
 - Array.foreach

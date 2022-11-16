@@ -1,4 +1,4 @@
-# polyfill-ssjs
+# polyfill for Sever side javascript on Salesforce Marketing cloud
 
 Add support for 
 

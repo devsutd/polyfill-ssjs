@@ -25,4 +25,17 @@
     return arr;
   }
 
+  if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function (searchString, position) {
+      position = position || 0;
+      return this.indexOf(searchString, position) === position;
+    };
+  }
+  if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function (searchString, position) {
+      var searchLength = this.length - searchString.length;
+      position = position || searchLength;
+      return this.indexOf(searchString, position) === position;
+    };
+  }
 </script>
